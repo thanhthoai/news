@@ -26,7 +26,7 @@ function App() {
     }
   };
   useEffect(() => {
-    newsApi();
+    newsApi(); // eslint-disable-next-line
   }, [newsResults,category, loadmore]);
 
 
